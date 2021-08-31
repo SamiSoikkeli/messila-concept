@@ -4,7 +4,7 @@ Redesign concept for Messilä website and JS practice. Combining all websites fo
 
 
 
-Known issues to be implemented
+## Known issues to be implemented
 
 - Responsiveness
 - Nav menu
@@ -13,7 +13,7 @@ Known issues to be implemented
 
 
 
-Live version
+## Live version
 
 https://serene-leakey-0f384e.netlify.app
 
