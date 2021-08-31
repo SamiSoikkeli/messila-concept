@@ -1,0 +1,39 @@
+@import "./variables.scss";
+
+@import "./components/header.scss";
+@import "./components/cursor.scss";
+@import "./components/hero.scss";
+@import "./components/info.scss";
+@import "./components/about.scss";
+@import "./components/footer.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  color: $color-dark;
+  background: $color-bright;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.loading {
+  visibility: hidden;
+}
+
+section {
+  height: 100vh;
+}
+
+.blue {
+  color: $color-primary;
+}
